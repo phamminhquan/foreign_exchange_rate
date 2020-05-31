@@ -21,7 +21,7 @@ def main():
     ax.legend(loc='upper left', bbox_to_anchor=(1.05, 1),
               ncol=1, borderaxespad=0)
     ax.set_ylabel('Local Currency/USD')
-    ax.set_xlabel('Days')
+    ax.set_xlabel('Days from 01/03/2000')
     fig.subplots_adjust(right=0.55)
     fig.suptitle('Foreign Exchange Rate with repsect to USD (e.g YEN/USD)',
                  va='top', size='large')
